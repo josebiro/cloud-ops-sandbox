@@ -31,3 +31,8 @@ variable "bucket_name" {
   type        = string
   description = "The name of your bucket to store the state file. Case-sensitive."
 }
+
+variable "gke_cluster_name" {
+  type = string
+  description = "The name of the gke cluster in which to run the application."
+}
